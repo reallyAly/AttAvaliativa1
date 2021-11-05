@@ -1,0 +1,22 @@
+{
+  "name": "attavaliativa1",
+  "version": "1.0.0",
+  "description": "Repositório criado para armazenar os códigos para a Atividade Avaliativa 1 da disciplina de tópicos em computação",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reallyAly/AttAvaliativa1.git"
+  },
+  "author": "Alysson Victor (reallyAly)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reallyAly/AttAvaliativa1/issues"
+  },
+  "homepage": "https://github.com/reallyAly/AttAvaliativa1#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
