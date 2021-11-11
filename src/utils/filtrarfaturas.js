@@ -12,6 +12,8 @@ module.exports = (faturas) => {
         }
     }    
 
+    faturas.splice(0,1);
+    
     return faturas;
 }
 
