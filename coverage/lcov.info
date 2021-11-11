@@ -74,7 +74,7 @@ end_of_record
 TN:
 SF:src/utils/filtrarfaturas.js
 FN:1,(anonymous_0)
-FN:23,diff_months
+FN:25,diff_months
 FNF:2
 FNH:2
 FNDA:4,(anonymous_0)
@@ -91,11 +91,12 @@ DA:12,4
 DA:13,8
 DA:14,4
 DA:20,4
-DA:25,8
+DA:22,4
 DA:27,8
 DA:29,8
-LF:15
-LH:15
+DA:31,8
+LF:16
+LH:16
 BRDA:9,0,0,4
 BRDA:9,0,1,12
 BRDA:11,1,0,4
