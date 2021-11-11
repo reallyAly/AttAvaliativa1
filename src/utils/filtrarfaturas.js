@@ -1,19 +1,22 @@
 module.exports = (faturas) => {
 
     let dataAtual = new Date();
+    let tamanhoOriginal = faturas.length;
 
     for(let i = 0; i < faturas.length; i++){
-        for(let j = 0; j < faturas.length; j++){
+
+        for(let j = 0; j < tamanhoOriginal; j++){
             if( faturas[i].getValor() < 2000 ){
                 faturas.splice(i,1);
             }else if( (faturas[i].getValor() >= 2000 || faturas[i].getValor() <= 2500) && diff_months(dataAtual, faturas[i].getData()) <= 1){
                 faturas.splice(i,1);
+            }else if( (faturas[i].getValor() >= 2500 || faturas[i].getValor() <= 3000) && diff_months(dataAtual, faturas[i].getCliente().getDataInclusao()) <= 2){
+                faturas.splice(i,1);
             }
         }
+
     }    
 
-    faturas.splice(0,1);
-    
     return faturas;
 }
 
