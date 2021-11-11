@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636600612865" clover="3.2.0">
-  <project timestamp="1636600612866" name="All files">
-    <metrics statements="39" coveredstatements="29" conditionals="12" coveredconditionals="12" methods="18" coveredmethods="8" elements="69" coveredelements="49" complexity="0" loc="39" ncloc="39" packages="2" files="3" classes="3"/>
+<coverage generated="1636600924278" clover="3.2.0">
+  <project timestamp="1636600924278" name="All files">
+    <metrics statements="41" coveredstatements="32" conditionals="16" coveredconditionals="15" methods="19" coveredmethods="10" elements="76" coveredelements="57" complexity="0" loc="41" ncloc="41" packages="2" files="3" classes="3"/>
     <package name="src">
-      <metrics statements="23" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="6"/>
+      <metrics statements="23" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="7"/>
       <file name="cliente.js" path="/home/alysson/Documents/AttAvaliativa1/src/cliente.js">
-        <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="2"/>
+        <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
@@ -15,7 +15,7 @@
         <line num="18" count="0" type="stmt"/>
         <line num="22" count="4" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
       </file>
       <file name="fatura.js" path="/home/alysson/Documents/AttAvaliativa1/src/fatura.js">
         <metrics statements="13" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="4"/>
@@ -27,17 +27,17 @@
         <line num="11" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="23" count="56" type="stmt"/>
+        <line num="23" count="60" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="31" count="4" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="39" count="4" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="16" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <metrics statements="18" coveredstatements="18" conditionals="16" coveredconditionals="15" methods="3" coveredmethods="3"/>
       <file name="filtrarfaturas.js" path="/home/alysson/Documents/AttAvaliativa1/src/utils/filtrarfaturas.js">
-        <metrics statements="16" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <metrics statements="18" coveredstatements="18" conditionals="16" coveredconditionals="15" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="4" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
@@ -49,11 +49,13 @@
         <line num="12" count="4" type="stmt"/>
         <line num="13" count="8" type="cond" truecount="5" falsecount="0"/>
         <line num="14" count="4" type="stmt"/>
-        <line num="20" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="16" count="4" type="stmt"/>
         <line num="22" count="4" type="stmt"/>
         <line num="27" count="8" type="stmt"/>
         <line num="29" count="8" type="stmt"/>
         <line num="31" count="8" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
       </file>
     </package>
   </project>

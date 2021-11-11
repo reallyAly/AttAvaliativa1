@@ -12,13 +12,13 @@ module.exports = (faturas) => {
                 faturas.splice(i,1);
             }else if( (faturas[i].getValor() >= 2500 && faturas[i].getValor() <= 3000) && diff_months(dataAtual, faturas[i].getCliente().getDataInclusao()) <= 2){
                 faturas.splice(i,1);
+            }else if( (faturas[i].getValor() > 4000) && getEstadosDoSul().includes(faturas[i].getCliente().getEstado())){
+                faturas.splice(i,1);
             }
         }
 
     }    
 
-    faturas.splice(0,1);
-    
     return faturas;
 }
 
@@ -29,4 +29,8 @@ function diff_months(dt2, dt1)
     diff /= (60 * 60 * 24 * 7 * 4);
 
     return Math.abs(Math.round(diff)) + 1;
- }
+}
+
+function getEstadosDoSul(){
+    return ["PR", "RS", "SC"];
+}
