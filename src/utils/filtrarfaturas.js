@@ -4,16 +4,14 @@ module.exports = (faturas) => {
 
     for(let i = 0; i < faturas.length; i++){
         for(let j = 0; j < faturas.length; j++){
-
             if( faturas[i].getValor() < 2000 ){
                 faturas.splice(i,1);
             }else if( (faturas[i].getValor() >= 2000 || faturas[i].getValor() <= 2500) && diff_months(dataAtual, faturas[i].getData()) <= 1){
                 faturas.splice(i,1);
             }
-
         }
     }    
-    console.log(faturas);
+
     return faturas;
 }
 
