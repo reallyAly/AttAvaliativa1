@@ -4,7 +4,7 @@ const filtrarfaturas = require("../utils/filtrarfaturas.js");
 
 let cliente1 = new Cliente("Alysson Victor", new Date(2021,11,10), "PR");
 let cliente2 = new Cliente("Pedro Paulo", new Date(2021,11,9), "SP");
-let fatura1 = new Fatura("0001", 2000, new Date(2021,11,10), cliente1);
+let fatura1 = new Fatura("0001", 2000, new Date(2021,10,10), cliente1);
 let fatura2 = new Fatura("0002", 1500, new Date(2021,11,10), cliente2);
 let fatura3 = new Fatura("0003", 6000, new Date(2021,11,5), cliente1);
 
