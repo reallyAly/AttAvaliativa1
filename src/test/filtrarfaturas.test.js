@@ -28,5 +28,4 @@ describe("Filtrar Faturas", () => {
     test("Se o valor da fatura for maior que 4000 e pertencer a algum estado da região Sul do Brasil", () => {
 		expect(filtrarfaturas(faturasFake.slice())).not.toContain(fatura4);
 	});
-
 });

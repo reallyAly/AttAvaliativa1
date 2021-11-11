@@ -8,6 +8,7 @@ module.exports = class Cliente{
 
     setNome(nome){
         this.nome = nome;
+        return this;
     }
 
     getNome(){
@@ -16,6 +17,7 @@ module.exports = class Cliente{
 
     setDataInclusao(dataInclusao){
         this.dataInclusao = dataInclusao;
+        return this;
     }
 
     getDataInclusao(){
@@ -24,6 +26,7 @@ module.exports = class Cliente{
 
     setEstado(estado){
         this.estado = estado;
+        return this;
     }
 
     getEstado(){

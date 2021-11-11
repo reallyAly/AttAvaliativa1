@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636600924278" clover="3.2.0">
-  <project timestamp="1636600924278" name="All files">
-    <metrics statements="41" coveredstatements="32" conditionals="16" coveredconditionals="15" methods="19" coveredmethods="10" elements="76" coveredelements="57" complexity="0" loc="41" ncloc="41" packages="2" files="3" classes="3"/>
+<coverage generated="1636652215945" clover="3.2.0">
+  <project timestamp="1636652215945" name="All files">
+    <metrics statements="48" coveredstatements="48" conditionals="16" coveredconditionals="15" methods="19" coveredmethods="19" elements="83" coveredelements="82" complexity="0" loc="48" ncloc="48" packages="2" files="3" classes="3"/>
     <package name="src">
-      <metrics statements="23" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="7"/>
+      <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="16"/>
       <file name="cliente.js" path="/home/alysson/Documents/AttAvaliativa1/src/cliente.js">
-        <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="3"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="30" count="4" type="stmt"/>
-      </file>
-      <file name="fatura.js" path="/home/alysson/Documents/AttAvaliativa1/src/fatura.js">
-        <metrics statements="13" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="1" count="3" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="23" count="60" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="31" count="4" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="39" count="8" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+      </file>
+      <file name="fatura.js" path="/home/alysson/Documents/AttAvaliativa1/src/fatura.js">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="61" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="9" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">

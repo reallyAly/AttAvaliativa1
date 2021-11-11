@@ -9,6 +9,7 @@ module.exports = class Fatura {
 
     setCodigo(codigo){
         this.codigo = codigo;
+        return this;
     }
 
     getCodigo(){
@@ -17,6 +18,7 @@ module.exports = class Fatura {
 
     setValor(valor){
         this.valor = valor;
+        return this;
     }
 
     getValor(){
@@ -25,6 +27,7 @@ module.exports = class Fatura {
 
     setData(data){
         this.data = data;
+        return this;
     }
 
     getData(){
@@ -33,6 +36,7 @@ module.exports = class Fatura {
 
     setCliente(cliente){
         this.cliente = cliente;
+        return this;
     }
 
     getCliente(){
